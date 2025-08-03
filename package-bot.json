@@ -1,0 +1,18 @@
+{
+  "name": "badboyz-invoice-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for BadBoyz Invoice Management System",
+  "main": "telegram-bot.js",
+  "scripts": {
+    "start": "node telegram-bot.js",
+    "dev": "nodemon telegram-bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
